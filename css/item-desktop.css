@@ -1,0 +1,150 @@
+body
+{
+	background-color: #001242;
+	padding: 0;
+	margin: auto;
+}
+a {
+    text-decoration: none;
+    color: #2040df;
+}
+nav {
+    width: calc(100% - 50px);
+    position: relative;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 25px 10px 25px;
+    position: fixed;
+    background-color: rgb(0,0,0,0);
+    z-index: 9;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+}
+
+.logo {
+    width: 82px;//124px;
+    height: 20px;//30px;
+    background-image: url(../img/logo.gif);
+    background-size: contain;
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    top: 5px; 
+//    margin: 10px 0px 0px 0px;
+    padding: 0px 25px 0px 0px;
+}
+
+.burger {
+    display: none;
+}
+
+input[type="checkbox"]  {
+    display: none;
+}
+
+.menu-section {
+    font-family: Tahoma;
+    color: #2040df; //#ffffff;
+    font-size: 24px;
+    display: inline-block;
+    margin: 0px 0px 0px 50px;
+}
+.title {	
+	margin: 0px 0px 0px 10px;
+	padding: 60px 20px 20px 20px; 
+	font-family: Tahoma;  
+//	background-color: #828282;
+	color: #f2f2f2;
+	font-size: 38px;
+	text-align: left;
+}
+.description {
+	margin: 10px 50px 20px 50px;
+	padding: 20px;
+	font-family: Tahoma;  
+	background-color: #005e7c;
+	border-radius: 15px;
+	color: #f2f2f2;
+	font-size: 18px;
+	text-align: left;
+}
+.galery {
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.galery-item {
+	float: left;
+	width: 300px;
+	margin: 10px;
+	border-radius: 15px;
+	transition: all 0.25s ease;
+}
+.galery-item:hover{
+	box-shadow: 0px 0px 75px #929292;
+	transform: scale(1.05);
+}
+.item-pic{
+	width: 300px;
+	height: 300px;
+	border-radius: 15px 15px 15px 15px;
+//	background-color: #ff0000;
+	background-image: url('../img/alps-1.gif');
+	background-size: cover;
+	background-position: center;
+}
+.item-info{
+	font-family: Tahoma;  
+}
+.item-title{
+	background-color: #828282;
+	border-radius: 0px 0px 25px 25px;
+	color: #f2f2f2;
+	font-size: 28px;
+	text-align: center;
+}
+.item-description{
+	color: #efefef;
+	font-size: 16px;
+	font-family: Tahoma;
+	text-align: center;
+}
+.video {
+	display: block;
+	margin 10px 50px 20px 50px;
+	border-radius: 15px 15px 15px 15px;
+}
+.social {
+	margin: 10px 50px 10px 50px;
+	padding: 20px;
+	font-family: Tahoma;  
+//	background-color: #828282;
+	color: #f2f2f2;
+	font-size: 28px;
+	text-align: left;
+}
+.facebook {
+	width: 50px;
+	height: 50px;
+	display: inline-block; 
+	background-image: url('../img/facebook.png');
+	background-size: cover;
+	background-position: center;
+}
+.twitter {
+	width: 50px;
+	height: 50px;
+	display: inline-block; 
+	background-image: url('../img/twitter.png');
+	background-size: cover;
+	background-position: center;
+}
+.instagram {
+	width: 50px;
+	height: 50px;
+	display: inline-block; 
+	background-image: url('../img/instagram.png');
+	background-size: cover;
+	background-position: center;
+}
